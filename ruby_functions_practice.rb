@@ -55,9 +55,9 @@ def volume_of_cube(num1)
 end
 
 def volume_of_sphere(num1)
-  return ((4.0 / 3.0) * (Math::PI) * (num1 ** 3)).to_f
+  return (4.0 / 3.0) * (Math::PI) * (num1 ** 3)
 end
 
 def fahrenheit_to_celsius(temperature)
-  return ((temperature - 32) * (5.0 / 9.0)).to_f
+  return (temperature - 32) * (5.0 / 9.0)
 end
